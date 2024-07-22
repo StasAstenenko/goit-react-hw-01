@@ -1,0 +1,59 @@
+.container {
+  width: 250px;
+  border: 2px solid #222222;
+  background-color: #f2f0f0;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #464646;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.liElem {
+  background-color: #b6b4b4;
+  border-right: 2px solid #181818;
+  flex: 1; /* Застосування гнучкої ширини до кожного елемента */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.list li:last-child {
+  border-right: none; /* Видалення правого бордера у останнього елемента */
+}
+
+.views {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stats {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
